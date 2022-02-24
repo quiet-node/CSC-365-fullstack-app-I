@@ -2,7 +2,7 @@
 
 
 ## Overview
-  This is a full-stack web application that works like a *search engine* which will find the similar and relevant businesses based on user's input. 
+  This is a full-stack web application that works like a *search engine* which will find the similar and relevant businesses based on user's input using Cosine Similarity Metric. 
   
 ### Project Showcase
 

@@ -24,5 +24,5 @@ https://user-images.githubusercontent.com/66233296/155579965-f9aaa7d7-7820-4018-
   - Material-UI
 
 ### Dataset
-  - yelp_dataset_business.json in [Yelp Dataset](https://www.yelp.com/dataset)
+  - yelp_dataset_business.json at [Yelp Dataset](https://www.yelp.com/dataset)
   

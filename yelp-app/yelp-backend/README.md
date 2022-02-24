@@ -1,4 +1,4 @@
-## After cloning the repo, run docker to get the appropriate working env
+## After clone the repo, run docker to get the appropriate working environment
 
 #### Mysql for apple m1
 

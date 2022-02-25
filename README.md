@@ -15,7 +15,7 @@ https://user-images.githubusercontent.com/66233296/155579965-f9aaa7d7-7820-4018-
   - Java Springboot
   - Customized HashTable
   - Cosine Similarity
-  - MySql Database
+  - MySql Database / Docker image
 
 
 ### Frontend -- client

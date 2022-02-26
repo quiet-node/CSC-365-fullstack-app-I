@@ -9,7 +9,7 @@
 https://user-images.githubusercontent.com/66233296/155579965-f9aaa7d7-7820-4018-808b-f5c8eec24f3a.mov
 
 
-## Technologies
+## Technologies used:
 
 ### Backend -- Engine
   - Java Springboot

@@ -1,4 +1,4 @@
-# CSC-365-Yelp-dataset
+# CSC-365 fullstack app
 
 *** Will be deployed soon ***
 

@@ -1,5 +1,6 @@
 # CSC-365-Yelp-dataset
 
+*** Will be deployed soon ***
 
 ## Overview
   This is a full-stack web application that works like a *search engine* which will find the similar and relevant businesses (in a json dataset from Yelp) based on user's inputs using Cosine Similarity Metric. 

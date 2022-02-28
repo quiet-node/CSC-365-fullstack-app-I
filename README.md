@@ -24,6 +24,6 @@ https://user-images.githubusercontent.com/66233296/155579965-f9aaa7d7-7820-4018-
   - Tailwindcss
   - Material-UI
 
-### Dataset
+### Dataset source
   - yelp_dataset_business.json at [Yelp Dataset](https://www.yelp.com/dataset)
   

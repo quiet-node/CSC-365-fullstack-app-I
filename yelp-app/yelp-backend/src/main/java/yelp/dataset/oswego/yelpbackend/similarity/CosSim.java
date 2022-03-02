@@ -123,7 +123,7 @@ public class CosSim {
         // loop through termMatrix
         for(String term : termMatrix) {
             // dotProd = x1*y1 + x2*y2
-            // It masters only when term != null a.k.a term.value > 0
+            // It masters only when term != null ie. term.value > 0
             if (vectorA.getTerm(term) > 0 && vectorB.getTerm(term) > 0) {
                     int valueA = vectorA.getTerm(term);
                     int valueB = vectorB.getTerm(term);
@@ -147,7 +147,7 @@ public class CosSim {
         
         // loop through termMatrix
         for(String term : termMatrix) {
-            //It master only when term != null a.k.a term.value > 0
+            //It masters only when term != null ie. term.value > 0
             if (vector.getTerm(term) > 0) {
                 sumFreq += Math.pow(vector.getTerm(term), 2);
             }

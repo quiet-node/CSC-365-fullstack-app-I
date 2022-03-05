@@ -32,7 +32,6 @@ public class JsonParser implements CommandLineRunner{
     }
 
     public void jsonParser() {
-        HashTable hashTable = new HashTable(5);
         try {
             // businessRepository.deleteAllInBatch();
             // buffrer reader to read lines in json file
@@ -84,10 +83,6 @@ public class JsonParser implements CommandLineRunner{
         } catch (Exception e) {
             e.printStackTrace();
         }
-    }
-    
-    public void Testing() {
-        
     }
     
 }

@@ -54,33 +54,6 @@ public class CosSim {
         return termMatrix;
     }
 
-    // makeVector:HashMap => the whole Vector
-    private HashMap<String, Integer> makeVectorDeprecated(HashSet<String> termMatrix, ArrayList<String> categories) {
-
-        HashMap<String, Integer> vector = new HashMap<>();
-
-
-        for (String term: termMatrix){  // loop through termMatrix
-            term = term.trim(); 
-           for(String cat : categories) {   // cat can be "Coffee & Tea"
-               cat = cat.trim();
-               String[] catArr = cat.split(" "); //catArr = ["Coffee", "&", "Tea"]
-               for(String c:catArr) { // c = "Coffee", c ="&", c ="Tea"
-                   if (term.equals(c)) { 
-                       if (vector.get(c) == null) { // if term is not defined, then set it =1 
-                            vector.put(term, 1); 
-                       } else {
-                            vector.put(term, vector.get(term)+1); // ++ if already defined
-                       }
-                   }
-               }
-           }
-        }
-
-
-        return vector;
-    }
-
     // makeVector:HashTable => vector of each category
     private HashTable makeVector(HashSet<String> termMatrix, ArrayList<String> categories) {
 

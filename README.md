@@ -1,9 +1,9 @@
 # CSC-365 fullstack app
 
 ## Overview
-  - Visit newest extended version here at [CSC-365-fullstack-app 2.0](https://github.com/lgad31vn/CSC-365-fullstack-app-II)
+  - Visit extended versions here at [CSC-365-fullstack-app 2.0](https://github.com/lgad31vn/CSC-365-fullstack-app-II) and [CSC-365-fullstack-app 3.0](https://github.com/lgad31vn/CSC-365-fullstack-app-III)
   
-  - This is a full-stack web application that works like a *search engine* which will find the similar and relevant businesses (in a json dataset from Yelp) based on user's inputs using Cosine Similarity Metric. 
+  - This version 1.0 is a full-stack web application that works like a *search engine* which will find the similar and relevant businesses (in a json dataset from Yelp) based on user's inputs using Cosine Similarity Metric. 
   
 ### Project Showcase
 

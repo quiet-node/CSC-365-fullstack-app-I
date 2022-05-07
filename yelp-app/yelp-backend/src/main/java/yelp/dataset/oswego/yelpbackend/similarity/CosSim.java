@@ -1,20 +1,24 @@
 package yelp.dataset.oswego.yelpbackend.similarity;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.HashSet;
 
 import lombok.NoArgsConstructor;
 import yelp.dataset.oswego.yelpbackend.hashing.HashTable;
 import yelp.dataset.oswego.yelpbackend.models.BusinessModel;
 
+/**
+ * @author: Nam (Logan) Nguyen
+ * @college: SUNY Oswego
+ * @since Spring 2022
+ * @version 1.0
+ * @link: https://github.com/lgad31vn/CSC-365
+ */
+
 @NoArgsConstructor
 public class CosSim {
-    
-
     private double cosSimRate;
-    
-    
+
     // catFilter:string => filter out the "&" and " "
     // For example:
     //      catA = ["Gastropubs"," Food"," Beer Gardens"," Restaurants"," Bars"," American (Traditional)"," Beer Bar"," Nightlife"," Breweries"]
@@ -104,11 +108,7 @@ public class CosSim {
                     int product = valueA * valueB;
                     dotProd += product; 
             }
-
-
-
         }
-
         return dotProd;        
     }
 
@@ -143,9 +143,7 @@ public class CosSim {
         double magVectorA = calcMagnitude(termMatrix, vectorA);
         double magVectorB = calcMagnitude(termMatrix, vectorB);
 
-
         return magVectorA * magVectorB;
-        
     }
 
 
@@ -164,8 +162,4 @@ public class CosSim {
 
         return this.cosSimRate;
     }
-
-  
-
-
 }

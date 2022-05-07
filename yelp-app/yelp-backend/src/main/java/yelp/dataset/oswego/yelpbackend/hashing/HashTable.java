@@ -4,6 +4,15 @@ import java.util.HashMap;
 import java.util.LinkedList;
 
 
+/**
+ * @author: Nam (Logan) Nguyen
+ * @college: SUNY Oswego
+ * @since Spring 2022
+ * @version 1.0
+ * @link: https://github.com/lgad31vn/CSC-365
+ */
+
+
 public class HashTable {
 
     /* 

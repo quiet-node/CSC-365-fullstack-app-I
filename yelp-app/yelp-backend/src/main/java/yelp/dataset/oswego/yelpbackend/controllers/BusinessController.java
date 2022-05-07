@@ -15,6 +15,15 @@ import yelp.dataset.oswego.yelpbackend.models.BusinessModel;
 import yelp.dataset.oswego.yelpbackend.repositories.BusinessRepository;
 import yelp.dataset.oswego.yelpbackend.similarity.CosSim;
 
+/**
+ * @author: Nam (Logan) Nguyen
+ * @college: SUNY Oswego
+ * @since Spring 2022
+ * @version 1.0
+ * @link: https://github.com/lgad31vn/CSC-365
+ */
+
+
 @RestController
 @RequestMapping("/yelpdata")
 @CrossOrigin

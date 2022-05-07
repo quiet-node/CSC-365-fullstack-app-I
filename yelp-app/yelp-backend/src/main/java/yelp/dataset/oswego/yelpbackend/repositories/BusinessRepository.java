@@ -7,6 +7,15 @@ import org.springframework.stereotype.Repository;
 
 import yelp.dataset.oswego.yelpbackend.models.BusinessModel;
 
+/**
+ * @author: Nam (Logan) Nguyen
+ * @college: SUNY Oswego
+ * @since Spring 2022
+ * @version 1.0
+ * @link: https://github.com/lgad31vn/CSC-365
+ */
+
+
 @Repository
 public interface BusinessRepository extends JpaRepository<BusinessModel, Long>  {
     List<BusinessModel> findByName(String name);

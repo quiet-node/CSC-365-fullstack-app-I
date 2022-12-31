@@ -19,14 +19,16 @@ import yelp.dataset.oswego.yelpbackend.models.BusinessModel;
 public class CosSim {
     private double cosSimRate;
 
-    // catFilter:string => filter out the "&" and " "
-    // For example:
-    //      catA = ["Gastropubs"," Food"," Beer Gardens"," Restaurants"," Bars"," American (Traditional)"," Beer Bar"," Nightlife"," Breweries"]
-    //      catB = [Restaurant, Beauty & Spa,  Coffee & Tea, Hair Salons, Food]
-
-    // Then catFilter return a HashSet
-    //      vector =  [American, Store, Gardens, Coffee, Restaurants, Beer, Nightlife, Gastropubs, Tea, Convenience, Bar, Breweries, (Traditional), Food, Bars]      
-
+    /**
+    * catFilter:string => filter out the "&" and " "
+    * For example:
+    *      catA = ["Gastropubs"," Food"," Beer Gardens"," Restaurants"," Bars"," American (Traditional)"," Beer Bar"," Nightlife"," Breweries"]
+    *      catB = [Restaurant, Beauty & Spa,  Coffee & Tea, Hair Salons, Food]
+    *
+    * catFilter() returns a HashSet
+    * vector =  [American, Store, Gardens, Coffee, Restaurants, Beer, Nightlife, Gastropubs, Tea, Convenience, Bar, Breweries, (Traditional), Food, Bars]      
+    *
+    */
     private HashSet<String> catFilter(ArrayList<String> catA, ArrayList<String> catB) {
 
         HashSet<String> termMatrix = new HashSet<>();
